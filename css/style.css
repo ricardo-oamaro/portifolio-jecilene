@@ -8545,9 +8545,9 @@ textarea.form-control {
 
 /* My Edition */
 
-.perfil p, ul, li {
-  font-size: 20px;
-  margin-top: -5%;
+.perfil img {
+  width: 100%;
+  height: 100%;
 }
 
 .competencia li {
@@ -8579,4 +8579,142 @@ textarea.form-control {
 
 .contato a {
   color: #777;
+}
+
+footer:after {
+  clear: both;
+}
+
+
+@media (min-width: 300px) and (max-width: 600px) {
+  img {
+    width: 70%;
+    margin-left: 5px;
+  }
+
+  .perfil {
+    top: 5%;
+    margin-left: 5px;
+  }
+  #colorlib-main {
+    margin-top: 30%;
+  }
+
+  .secao_principal {
+    height: 900px;
+  }
+  #section1 {
+    height: 1300px;
+  }
+  #section2 {
+    height: 850px;
+  }
+  #section3 {
+    height: 850px;
+  }
+
+  #section4 {
+    height: 1500px;
+  }
+
+  #section4_ {
+    height: 1200px;
+  }
+
+  #section5 {
+    height: 1000px;
+  }
+
+ 
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+
+  img {
+    width: 70%;
+  }
+
+  .perfil {
+    float: right;
+    position: relative;
+  }
+
+  #section1 {
+    height: 900px;
+  }
+  #section2 {
+    height: 950px;
+  }
+  #section3 {
+    height: 850px;
+  }
+
+  #section4 {
+    height: 1100px;
+  }
+
+  #section5 {
+    height: 1000px;
+  }
+ 
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+
+  img {
+    width: 70%;
+  }
+
+
+  .perfil {
+    float: right;
+    position: relative;
+    top: -60%;
+    left: -10%;
+  }
+
+    #section1 {
+    height: 950px;
+  }
+  #section2 {
+    height: 950px;
+  }
+  #section3 {
+    height: 900px;
+  }
+
+  #section4 {
+    height: 1100px;
+  }
+
+  #section5 {
+    height: 1000px;
+  }
+ 
+}
+
+@media (min-width: 1350px){
+
+  .secao {
+    height: 900px;
+  }
+
+  .perfil {
+    float: right;
+    position: relative;
+  }
+
+  #section4 {
+    height: 1000px;
+  }
+
+  #section5 {
+    height: 700px;
+  }
+
+ #section5 img {
+   width: 70%;
+   margin-left: 20%;
+ }
+ 
 }
