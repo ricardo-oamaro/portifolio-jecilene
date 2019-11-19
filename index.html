@@ -24,6 +24,10 @@
 	<link rel="stylesheet" href="css/jquery.timepicker.css">
 
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -68,7 +72,7 @@
 				<div class="overlay"></div>
 				<div class="js-fullheight d-flex justify-content-center align-items-center">
 					<div class="col-md-8 text text-center">
-						<div class="img mb-4" style="background-image: url(images/je_profile.jpg);"></div>
+						<div class="img" style="background-image: url(images/je_profile.jpg);"></div>
 						<div class="desc">
 							<h2 class="subheading">Olá, eu sou</h2>
 							<h1 class="mb-4">Jecilene Pereira</h1>
@@ -83,31 +87,29 @@
 					</div>
 				</div>
 			</div>
-			<section class="ftco-section" id="section1">
-				<div class="hero-wrap js-fullheight" style="background-image: url(images/bg_1.jpg);"
+			<section class="ftco-section">
+				<div id="section1" class="hero-wrap js-fullheight" style="background-image: url(images/bg_1.jpg);"
 					data-stellar-background-ratio="0.5">
 					<div class="overlay"></div>
-					<div class="heading-section ftco-animate">
-						<h2 class="mb-4 text-center">Perfil</h2>
-						<div class="row ml-5">
-
+					<div class="js-fullheight d-flex">
+						<div class="col-md-10 text">
+							<h2 class="mb-4 text-center">Perfil</h2>
 							<figure id="img" style="float: left;">
 								<img src="images/je_profile2.JPG" alt="Je_profile2">
 							</figure>
-							<!-- <a href="#" class="img img-6" style="background-image: url(images/je_profile2.jpg);"></a> -->
-							<div class="perfil">
-								<h4 class="ml-5">Nome</h4>
-								<p class="ml-5">Jecilene Pereira Amaro</p>
-								<h4 class="ml-5 mt-3">Idade</h4>
-								<p class="ml-5">28 anos</p>
-								<h4 class="ml-5 mt-3">Profissão</h4>
-								<p class="ml-5">Analista de Mídias Sociais</p>
-								<h4 class="ml-5 mt-3">Hobbies</h4>
-								<p class="ml-5">TV, Séries, Viagens e comida japonesa.</p>
-								<h4 class="ml-5 mt-3">Status</h4>
-								<p class="ml-5">Casada</p>
-								<h4 class="ml-5 mt-3">Soft Skills</h4>
-								<ul class="ml-5">
+							<div class="perfil text" style="float: right;">
+								<h4>Nome</h4>
+								<p>Jecilene Pereira Amaro</p>
+								<h4>Idade</h4>
+								<p>28 anos</p>
+								<h4>Profissão</h4>
+								<p>Analista de Mídias Sociais</p>
+								<h4>Hobbies</h4>
+								<p>TV, Séries, Viagens e comida japonesa.</p>
+								<h4>Status</h4>
+								<p>Casada</p>
+								<h4>Soft Skills</h4>
+								<ul>
 									<li>Comunicativa</li>
 									<li>Curiosa</li>
 									<li>Hands on</li>
@@ -117,13 +119,13 @@
 									<li>Simpática</li>
 									<li>Pró ativa</li>
 								</ul>
-							</div>
 						</div>
-
-
+						</div>
 					</div>
+				</div>
+
 			</section>
-			<section class="ftco-section" id="section2">
+			<!-- <section class="ftco-section" id="section2">
 				<div class="hero-wrap js-fullheight" style="background-image: url(images/bg_1.jpg);"
 					data-stellar-background-ratio="0.5">
 					<div class="overlay"></div>
@@ -134,7 +136,6 @@
 							<figure id="img" style="float: left;">
 								<img src="images/je_profile3.jpg" alt="je_profile3">
 							</figure>
-							<!-- <a href="#" class="img img-6" style="background-image: url(images/je_profile2.jpg);"></a> -->
 							<div class="perfil">
 								<h3 class="ml-5">ESAMC</h3>
 								<h4 class="ml-5">Dezembro, 2021 (cursando)</h4>
@@ -186,7 +187,6 @@
 					<div class="overlay"></div>
 					<div class="heading-section ftco-animate">
 						<h2 class="mb-4 text-center">Experiências Profissionais</h2>
-						<!-- <div class="row "> -->
 						<div class="js-fullheight d-flex">
 							<div class="col-md-8 text">
 								<div class="img mb-4" style="background-image: url(images/amarte.JPG); float: left;">
@@ -211,12 +211,11 @@
 										<li>Coleta e análise de dados de performance dos posts;</li>
 										<li>Monitoramento de resultados e performance dos canais;</li><br>
 										<p align="center"><a href="#section4_">Confira mais<span
-										class="ion-ios-arrow-forward"></span></a></p>
+													class="ion-ios-arrow-forward"></span></a></p>
 									</ul>
 								</div>
 							</div>
 						</div>
-						<!-- </div> -->
 
 
 					</div>
@@ -259,32 +258,37 @@
 					<div class="overlay"></div>
 					<div class="heading-section ftco-animate">
 						<h2 class="mb-1 text-center">Contato</h2>
-						<p align="center">Obrigada pro visitar meu portfólio e conhecer um pouquinho sobre meu perfil &#128512;</p>
-						<!-- <img src="images/je_profile4.jpg" alt="Je_profile4" class="img"> -->
+						<p align="center">Obrigada pro visitar meu portfólio e conhecer um pouquinho sobre meu perfil
+							&#128512;</p>
 						<div class="js-fullheight d-flex">
 							<div class="row ml-5">
 
 								<figure id="img" style="float: left;">
 									<img src="images/je_profile6.jpg" alt="Je_profile6">
 								</figure>
-								<!-- <a href="#" class="img img-6" style="background-image: url(images/je_profile2.jpg);"></a> -->
 								<div class="contato">
 									<h4 class="ml-5">Facebook</h4>
-									<p class="ml-5"><a href="https://www.facebook.com/jecilene.pereira.5" target="_blank">https://www.facebook.com/jecilene.pereira.5</a></p>
+									<p class="ml-5"><a href="https://www.facebook.com/jecilene.pereira.5"
+											target="_blank">https://www.facebook.com/jecilene.pereira.5</a></p>
 									<h4 class="ml-5 mt-3">Instagram</h4>
-									<p class="ml-5 mb-4"><a href="https://www.instagram.com/eujecilene/?hl=pt-br" target="_blank">https://www.instagram.com/eujecilene/?hl=pt-br</a></p>
+									<p class="ml-5 mb-4"><a href="https://www.instagram.com/eujecilene/?hl=pt-br"
+											target="_blank">https://www.instagram.com/eujecilene/?hl=pt-br</a></p>
 									<h4 class="ml-5 mt-3">Linkedin</h4>
-									<p class="ml-5 mb-4"><a href="https://www.linkedin.com/in/jecilene-pereira-21576a6a/" target="_blank">https://www.linkedin.com/in/jecilene-pereira-21576a6a/</a></p>
+									<p class="ml-5 mb-4"><a
+											href="https://www.linkedin.com/in/jecilene-pereira-21576a6a/"
+											target="_blank">https://www.linkedin.com/in/jecilene-pereira-21576a6a/</a>
+									</p>
 									<h4 class="ml-5 mt-3">Whatsapp</h4>
-									<p class="ml-5 mb-4"><a href="https://web.whatsapp.com/send?phone=5515981286467" target="_blank">15 981286467</a></p>
+									<p class="ml-5 mb-4"><a href="https://web.whatsapp.com/send?phone=5515981286467"
+											target="_blank">15 981286467</a></p>
 									</ul>
 								</div>
 							</div>
-							</div>
 						</div>
-
 					</div>
-			</section>
+
+				</div>
+			</section> -->
 
 			<footer class="ftco-footer ftco-bg-dark ftco-section">
 				<div class="container px-md-5">
@@ -371,6 +375,15 @@
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
 
 </body>
 
