@@ -8589,28 +8589,54 @@ footer:after {
 @media (min-width: 300px) and (max-width: 600px) {
   img {
     width: 70%;
-    margin-left: 5px;
+    margin-left: 10%;
+    
   }
 
   .perfil {
     top: 5%;
     margin-left: 5px;
   }
+
+  .perfil h4 {
+    font-size: 16px;
+  }
+
+  .perfil p, li{
+    font-size: 14px;
+  }
+
   #colorlib-main {
-    margin-top: 30%;
+    margin-top: 40%;
   }
 
   .secao_principal {
-    height: 900px;
+    height: 700px;
   }
+  .secao_principal p {
+    font-size: 16px;
+  }
+
+  .secao_principal h1 {
+    font-size: 30px;
+  }
+
+
   #section1 {
-    height: 1300px;
+    height: 1100px;
   }
   #section2 {
-    height: 850px;
+    height: 750px;
+  }
+
+  #imgsec2 {
+    margin-left: -2%;
+  }
+  .academico h3 {
+    font-size: 18px;
   }
   #section3 {
-    height: 850px;
+    height: 650px;
   }
 
   #section4 {
