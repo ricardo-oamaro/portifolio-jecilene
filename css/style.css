@@ -8559,24 +8559,6 @@ textarea.form-control {
   text-decoration: underline;
 }
 
-.exp_profissional h2 {
-  margin-left: 10%;
-  padding: 3%;
-}
-.exp_profissional h4 {
-  margin-left: 10%;
-  padding: 5%;
-  margin-top: -10%;
-}
-
-.exp_profissional li {
-  position: relative;
-  font-size: 16px;
-  margin-top: 1%;
-  margin-left: 20%;
-  padding: 2px;
-}
-
 .contato a {
   color: #777;
 }
@@ -8589,41 +8571,117 @@ footer:after {
 @media (min-width: 300px) and (max-width: 600px) {
   img {
     width: 70%;
-    margin-left: 5px;
+    margin-left: 10%;
+    
   }
 
   .perfil {
     top: 5%;
     margin-left: 5px;
   }
-  #colorlib-main {
-    margin-top: 30%;
+
+  .perfil h4 {
+    font-size: 16px;
+  }
+
+  .perfil p, li{
+    font-size: 14px;
   }
 
   .secao_principal {
-    height: 900px;
+    height: 800px;
   }
+  .secao_principal p {
+    font-size: 16px;
+  }
+
+  .secao_principal h1 {
+    font-size: 30px;
+  }
+
+
   #section1 {
-    height: 1300px;
+    height: 1100px;
   }
+
+  #section1 .perfil {
+    margin-left: 10%;
+ }
   #section2 {
-    height: 850px;
+    height: 800px;
+  }
+
+  #imgsec2 {
+    margin-left: -0.5%;
+  }
+  .academico h3 {
+    font-size: 18px;
   }
   #section3 {
-    height: 850px;
+    height: 750px;
+  }
+
+  #section3 h2 {
+    font-size: 24px;
+    margin-left: 10%;
+  }
+  
+  #section3 h4 {
+    font-size: 20px;
+  }
+  .competencia {
+    margin-left: 7%;
   }
 
   #section4 {
-    height: 1500px;
+    height: 950px;
+  }
+  
+  #section4 h4, h2 {
+    font-size: 24px;
   }
 
+  #section4 h4, h2 {
+    font-size: 24px;
+  }
+  #section4 .img, #section4_ .img {
+    width: 30%;
+    height: 15%;
+  }
+
+  .alinhamento li:not(:first-child){
+    right: 30%;
+  }
   #section4_ {
-    height: 1200px;
+    height: 700px;
+  }
+
+  #section4_ h4 {
+    font-size: 16px;
   }
 
   #section5 {
-    height: 1000px;
+    height: 900px;
   }
+
+  #section5 p {
+    font-size: 14px;
+  }
+  
+  #section5 h4 {
+    font-size: 20px;
+  }
+  
+  .contato {
+    margin-left: 5%;
+  }
+  
+  #section5 #img {
+    width: 80%;
+    margin-left: 10%;
+  }
+ 
+ 
 
  
 }
