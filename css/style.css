@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8550,10 +8550,6 @@ textarea.form-control {
   height: 100%;
 }
 
-.competencia li {
-  margin-bottom: 5%;
-}
-
 .exp_profissional a {
   color: #555;
   text-decoration: underline;
@@ -8572,9 +8568,9 @@ footer:after {
   img {
     width: 70%;
     margin-left: 10%;
-    
   }
 
+  
   .perfil {
     top: 5%;
     margin-left: 5px;
@@ -8618,16 +8614,21 @@ footer:after {
     font-size: 18px;
   }
   #section3 {
-    height: 750px;
+    height: 550px;
+  }
+  
+  #section3 .secao {
+    height: 650px;
   }
 
   #section3 h2 {
-    font-size: 24px;
-    margin-left: 10%;
+    font-size: 100%;
+    margin-left: 20%;
   }
   
   #section3 h4 {
-    font-size: 20px;
+    font-size: 100%;
+    margin-left: 15%;
   }
   .competencia {
     margin-left: 7%;
@@ -8682,71 +8683,275 @@ footer:after {
   }
  
  
-
- 
 }
 
 @media (min-width: 700px) and (max-width: 900px) {
 
-  img {
-    width: 70%;
-  }
 
   .perfil {
     float: right;
     position: relative;
   }
 
+
   #section1 {
+    height: 750px;
+  }
+  
+   #section1 .secao {
     height: 900px;
   }
-  #section2 {
-    height: 950px;
+
+  #section1 img {
+    width: 60%;
+    margin-left: 25%;
   }
+  
+  #section1 .perfil h4 {
+    font-size: 18px;
+  }
+  
+    #section1 .perfil p, li {
+    font-size: 14px;
+  }
+
+  #section2 {
+    height: 600px;
+  }
+  
+  #section2 .secao {
+    height: 750px;
+  }
+  
+ #section2 .perfil {
+    left: 35%;
+   margin-top: -45%
+  }
+  #section2 .perfil h4, h3 {
+    font-size: 100%;
+  }
+  
+  #section2 img {
+    width: 50%;
+  }
+
   #section3 {
-    height: 850px;
+    height: 550px;
+  }
+  
+  #section3 .secao {
+    height: 800px;
+  }
+
+  #section3 h2 {
+    font-size: 100%;
+    margin-left: 90%;
+  
+  }
+  
+  #section3 h4 {
+    margin-left: 15%;
+    font-size: 100%;
+  }
+  .competencia {
+    margin-left: 7%;
+  }
+  #confira_mais {
+    margin-left: 40%;
   }
 
   #section4 {
-    height: 1100px;
+    height: 750px;
+  }
+  
+  #section4 .secao {
+    height: 950px;
+  }
+  
+  #section4 .exp_profissional h4, #section4 .exp_profissional h2 {
+    font-size: 100%;
+  }
+  #section4 .img, #section4_ .img {
+    width: 30%;
+    height: 15%;
+  }
+
+  .alinhamento li:not(:first-child){
+    right: 90%;
+  }
+  #section4_ {
+    height: 700px;
+  }
+  
+  #section4_ .secao {
+    height: 850px;
+  }
+
+  #section4_ .exp_profissional h4, #section4_ .exp_profissional h2, #section4_ .exp_profissional li {
+    font-size: 100%;
   }
 
   #section5 {
-    height: 1000px;
+    height: 900px;
+  }
+
+  #section5 img {
+    width: 50%;
+    margin-left: 25%
+  }
+  #section5 p {
+    font-size: 14px;
+  }
+  
+  #section5 h4 {
+    font-size: 20px;
+  }
+  
+  .contato {
+    margin-left: 5%;
+    margin-top: -40%
+  }
+  
+  #section5 #img {
+    width: 80%;
+    margin-left: 10%;
   }
  
 }
 
 @media (min-width: 1000px) and (max-width: 1300px) {
 
-  img {
-    width: 70%;
-  }
-
-
   .perfil {
     float: right;
     position: relative;
-    top: -60%;
-    left: -10%;
   }
 
-    #section1 {
-    height: 950px;
+
+  #section1 {
+    height: 750px;
   }
-  #section2 {
-    height: 950px;
-  }
-  #section3 {
+  
+   #section1 .secao {
     height: 900px;
   }
 
+  #section1 img {
+    width: 60%;
+    margin-left: 25%;
+  }
+  
+  #section1 .perfil h4 {
+    font-size: 18px;
+  }
+  
+    #section1 .perfil p, li {
+    font-size: 14px;
+  }
+
+  #section2 {
+    height: 600px;
+  }
+  
+  #section2 .secao {
+    height: 800px;
+  }
+  
+ #section2 .perfil {
+    left: 35%;
+   margin-top: -45%
+  }
+  #section2 .perfil h4, h3 {
+    font-size: 100%;
+  }
+  
+  #section2 img {
+    width: 50%;
+  }
+
+  #section3 {
+    height: 550px;
+  }
+  
+  #section3 .secao {
+    height: 750px;
+  }
+
+  #section3 h2 {
+    font-size: 100%;
+    margin-left: 90%;
+  
+  }
+  
+  #section3 h4 {
+    margin-left: 15%;
+    font-size: 100%;
+  }
+  .competencia {
+    margin-left: 7%;
+  }
+  #confira_mais {
+    margin-left: 40%;
+  }
+
   #section4 {
-    height: 1100px;
+    height: 750px;
+  }
+  
+  #section4 .secao {
+    height: 800px;
+  }
+  
+  #section4 .exp_profissional h4, #section4 .exp_profissional h2 {
+    font-size: 100%;
+  }
+  #section4 .img, #section4_ .img {
+    width: 30%;
+    height: 15%;
+  }
+
+  .alinhamento li:not(:first-child){
+    right: 90%;
+  }
+  #section4_ {
+    height: 700px;
+  }
+  
+  #section4_ .secao {
+    height: 800px;
+  }
+
+  #section4_ .exp_profissional h4, #section4_ .exp_profissional h2, #section4_ .exp_profissional li {
+    font-size: 100%;
   }
 
   #section5 {
+    height: 900px;
+  }
+  
+  #section5 .secao {
     height: 1000px;
+  }
+
+  #section5 img {
+    width: 50%;
+    margin-left: 25%
+  }
+  #section5 p {
+    font-size: 14px;
+  }
+  
+  #section5 h4 {
+    font-size: 20px;
+  }
+  
+  .contato {
+    margin-left: 5%;
+    margin-top: -10%
+  }
+  
+  #section5 #img {
+    width: 80%;
+    margin-left: 10%;
   }
  
 }
