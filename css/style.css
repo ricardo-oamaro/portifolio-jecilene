@@ -8568,9 +8568,9 @@ footer:after {
   img {
     width: 70%;
     margin-left: 10%;
-    
   }
 
+  
   .perfil {
     top: 5%;
     margin-left: 5px;
@@ -8614,16 +8614,21 @@ footer:after {
     font-size: 18px;
   }
   #section3 {
+    height: 550px;
+  }
+  
+  #section3 .secao {
     height: 650px;
   }
 
   #section3 h2 {
-    font-size: 24px;
-    margin-left: 10%;
+    font-size: 100%;
+    margin-left: 20%;
   }
   
   #section3 h4 {
-    font-size: 20px;
+    font-size: 100%;
+    margin-left: 15%;
   }
   .competencia {
     margin-left: 7%;
@@ -8688,12 +8693,13 @@ footer:after {
     position: relative;
   }
 
-  .secao {
-    height: 1000px;
-  }
 
   #section1 {
     height: 750px;
+  }
+  
+   #section1 .secao {
+    height: 900px;
   }
 
   #section1 img {
@@ -8710,7 +8716,11 @@ footer:after {
   }
 
   #section2 {
-    height: 650px;
+    height: 600px;
+  }
+  
+  #section2 .secao {
+    height: 750px;
   }
   
  #section2 .perfil {
@@ -8726,7 +8736,11 @@ footer:after {
   }
 
   #section3 {
-    height: 750px;
+    height: 550px;
+  }
+  
+  #section3 .secao {
+    height: 800px;
   }
 
   #section3 h2 {
@@ -8742,16 +8756,19 @@ footer:after {
   .competencia {
     margin-left: 7%;
   }
+  #confira_mais {
+    margin-left: 40%;
+  }
 
   #section4 {
     height: 750px;
   }
   
-  #section4 h4, h2 {
-    font-size: 24px;
+  #section4 .secao {
+    height: 950px;
   }
-
-  #section4 h4, h2 {
+  
+  #section4 .exp_profissional h4, #section4 .exp_profissional h2 {
     font-size: 100%;
   }
   #section4 .img, #section4_ .img {
@@ -8765,15 +8782,23 @@ footer:after {
   #section4_ {
     height: 700px;
   }
+  
+  #section4_ .secao {
+    height: 850px;
+  }
 
-  #section4_ h4 {
-    font-size: 16px;
+  #section4_ .exp_profissional h4, #section4_ .exp_profissional h2, #section4_ .exp_profissional li {
+    font-size: 100%;
   }
 
   #section5 {
     height: 900px;
   }
 
+  #section5 img {
+    width: 50%;
+    margin-left: 25%
+  }
   #section5 p {
     font-size: 14px;
   }
@@ -8784,6 +8809,7 @@ footer:after {
   
   .contato {
     margin-left: 5%;
+    margin-top: -40%
   }
   
   #section5 #img {
