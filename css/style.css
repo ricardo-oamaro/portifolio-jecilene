@@ -8855,26 +8855,151 @@ footer:after {
 
 @media (min-width: 1350px){
 
-  .secao {
-    height: 900px;
-  }
-
   .perfil {
     float: right;
     position: relative;
   }
 
-  #section4 {
-    height: 1000px;
+
+  #section1 {
+    height: 750px;
+  }
+  
+   #section1 .secao {
+    height: 900px;
   }
 
-  #section5 {
+  #section1 img {
+    width: 60%;
+    margin-left: 45%;
+  }
+  
+  #section1 h2 {
+    margin-left: 30%
+  }
+  
+  #section1 .perfil h4 {
+    font-size: 100%;
+    margin-left: 10%
+  }
+  
+    #section1 .perfil p, li {
+    font-size: 80%;
+      margin-left: 10%
+  }
+
+  #section2 {
+    height: 600px;
+  }
+  
+  #section2 img {
+    width: 60%;
+    margin-left: 25%;
+  }
+  
+  #section2 .secao {
+    height: 850px;
+  }
+  
+ #section2 .perfil {
+    right: 10%;
+  }
+  #section2 .perfil h4, h3 {
+    font-size: 100%;
+  }
+  
+  #section2 img {
+    width: 50%;
+  }
+
+  #section3 {
+    height: 550px;
+  }
+  
+  #section3 .secao {
     height: 700px;
   }
 
- #section5 img {
-   width: 70%;
-   margin-left: 20%;
- }
+  #section3 h2 {
+    font-size: 150%;
+    margin-left: 120%;
+  
+  }
+  
+  #section3 h4 {
+    margin-left: 15%;
+    font-size: 100%;
+  }
+ 
+  #confira_mais {
+  }
+
+  #section4 {
+    height: 650px;
+  }
+  
+  #section4 .secao {
+    height: 800px;
+  }
+  
+  #section4 .exp_profissional h4, #section4 .exp_profissional h2 {
+    font-size: 100%;
+  }
+  #section4 .img {
+    width: 15%;
+    height: 20%;
+    margin-left: 5%
+  }
+
+  .alinhamento li:not(:first-child){
+    right: 90%;
+  }
+  #section4_ {
+    height: 700px;
+  }
+  
+  #section4_ .secao {
+    height: 800px;
+  }
+  
+  #section4_ .img {
+    width: 20%;
+    height: 15%;
+    margin-left: 5%
+  }
+
+  #section4_ h4, #section4_ h2, #section4_ .li {
+    font-size: 100%;
+  }
+  
+  #section4_ h2, #section4_ h4, #section4_ li {
+    margin-left: 30%;
+  }
+
+  #section5 {
+    height: 900px;
+  }
+
+  #section5 img {
+    width: 40%;
+    margin-left: 25%
+  }
+  #section5 p {
+    font-size: 14px;
+  }
+  
+  #section5 h4 {
+    font-size: 20px;
+  }
+  
+  .contato {
+    margin-left: 5%;
+  }
+  
+  #section5 #img {
+    width: 80%;
+    margin-left: 10%;
+  }
  
 }
+ 
