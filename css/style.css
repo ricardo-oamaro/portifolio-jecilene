@@ -1,4 +1,4 @@
-/*!
+      /*!
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -8550,31 +8550,9 @@ textarea.form-control {
   height: 100%;
 }
 
-.competencia li {
-  margin-bottom: 5%;
-}
-
 .exp_profissional a {
   color: #555;
   text-decoration: underline;
-}
-
-.exp_profissional h2 {
-  margin-left: 10%;
-  padding: 3%;
-}
-.exp_profissional h4 {
-  margin-left: 10%;
-  padding: 5%;
-  margin-top: -10%;
-}
-
-.exp_profissional li {
-  position: relative;
-  font-size: 16px;
-  margin-top: 1%;
-  margin-left: 20%;
-  padding: 2px;
 }
 
 .contato a {
@@ -8589,132 +8567,556 @@ footer:after {
 @media (min-width: 300px) and (max-width: 600px) {
   img {
     width: 70%;
-    margin-left: 5px;
+    margin-left: 10%;
   }
 
+  
   .perfil {
     top: 5%;
     margin-left: 5px;
   }
-  #colorlib-main {
-    margin-top: 30%;
+
+  .perfil h4 {
+    font-size: 16px;
+  }
+
+  .perfil p, li{
+    font-size: 14px;
   }
 
   .secao_principal {
-    height: 900px;
+    height: 800px;
   }
+  .secao_principal p {
+    font-size: 16px;
+  }
+
+  .secao_principal h1 {
+    font-size: 30px;
+  }
+
+
   #section1 {
-    height: 1300px;
+    height: 1100px;
   }
+
+  #section1 .perfil {
+    margin-left: 10%;
+ }
   #section2 {
-    height: 850px;
+    height: 800px;
+  }
+
+  #imgsec2 {
+    margin-left: -0.5%;
+  }
+  .academico h3 {
+    font-size: 18px;
   }
   #section3 {
-    height: 850px;
+    height: 550px;
+  }
+  
+  #section3 .secao {
+    height: 650px;
+  }
+
+  #section3 h2 {
+    font-size: 100%;
+    margin-left: 20%;
+  }
+  
+  #section3 h4 {
+    font-size: 100%;
+    margin-left: 15%;
+  }
+  .competencia {
+    margin-left: 7%;
   }
 
   #section4 {
-    height: 1500px;
+    height: 950px;
+  }
+  
+  #section4 h4, h2 {
+    font-size: 24px;
   }
 
+  #section4 h4, h2 {
+    font-size: 24px;
+  }
+  #section4 .img, #section4_ .img {
+    width: 30%;
+    height: 15%;
+  }
+
+  .alinhamento li:not(:first-child){
+    right: 30%;
+  }
   #section4_ {
-    height: 1200px;
+    height: 700px;
+  }
+
+  #section4_ h4 {
+    font-size: 16px;
   }
 
   #section5 {
-    height: 1000px;
+    height: 900px;
   }
 
+  #section5 p {
+    font-size: 14px;
+  }
+  
+  #section5 h4 {
+    font-size: 20px;
+  }
+  
+  .contato {
+    margin-left: 5%;
+  }
+  
+  #section5 #img {
+    width: 80%;
+    margin-left: 10%;
+  }
+ 
  
 }
 
 @media (min-width: 700px) and (max-width: 900px) {
 
-  img {
-    width: 70%;
-  }
 
   .perfil {
     float: right;
     position: relative;
   }
 
+
   #section1 {
+    height: 750px;
+  }
+  
+   #section1 .secao {
     height: 900px;
   }
-  #section2 {
-    height: 950px;
+
+  #section1 img {
+    width: 60%;
+    margin-left: 25%;
   }
+  
+  #section1 .perfil h4 {
+    font-size: 18px;
+  }
+  
+    #section1 .perfil p, li {
+    font-size: 14px;
+  }
+
+  #section2 {
+    height: 600px;
+  }
+  
+  #section2 .secao {
+    height: 750px;
+  }
+  
+ #section2 .perfil {
+    left: 35%;
+   margin-top: -45%
+  }
+  #section2 .perfil h4, h3 {
+    font-size: 100%;
+  }
+  
+  #section2 img {
+    width: 50%;
+  }
+
   #section3 {
+    height: 550px;
+  }
+  
+  #section3 .secao {
+    height: 800px;
+  }
+
+  #section3 h2 {
+    font-size: 100%;
+    margin-left: 90%;
+  
+  }
+  
+  #section3 h4 {
+    margin-left: 15%;
+    font-size: 100%;
+  }
+  .competencia {
+    margin-left: 7%;
+  }
+  
+  #section4 {
+    height: 650px;
+  }
+  
+  #section4 .secao {
+    height: 750px;
+  }
+  
+  #section4 .exp_profissional h4, #section4 .exp_profissional h2 {
+    font-size: 100%;
+  }
+  #section4 .img {
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
+  }
+
+  .alinhamento li{
+    right: 90%;
+  }
+  #section4_ {
+    height: 700px;
+  }
+  
+  #section4_ .secao {
     height: 850px;
   }
 
-  #section4 {
-    height: 1100px;
+  #section4_ .exp_profissional h4, #section4_ .exp_profissional h2, #section4_ .exp_profissional li {
+    font-size: 100%;
+    margin-left: 25%;
+  }
+
+  #section4_ .img {
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
   }
 
   #section5 {
-    height: 1000px;
+    height: 900px;
+  }
+
+  #section5 img {
+    width: 50%;
+    margin-left: 25%
+  }
+  #section5 p {
+    font-size: 14px;
+  }
+  
+  #section5 h4 {
+    font-size: 20px;
+  }
+  
+  .contato {
+    margin-left: 5%;
+  }
+  
+  #section5 #img {
+    width: 80%;
+    margin-left: 10%;
   }
  
 }
 
 @media (min-width: 1000px) and (max-width: 1300px) {
 
-  img {
-    width: 70%;
-  }
-
-
-  .perfil {
+   .perfil {
     float: right;
     position: relative;
-    top: -60%;
-    left: -10%;
   }
 
-    #section1 {
-    height: 950px;
+
+  #section1 {
+    height: 750px;
   }
-  #section2 {
-    height: 950px;
-  }
-  #section3 {
+  
+   #section1 .secao {
     height: 900px;
   }
 
+  #section1 img {
+    width: 60%;
+    margin-left: 45%;
+  }
+  
+  #section1 h2 {
+    margin-left: 30%
+  }
+  
+  #section1 .perfil h4 {
+    font-size: 100%;
+    margin-left: 10%
+  }
+  
+    #section1 .perfil p, li {
+    font-size: 80%;
+      margin-left: 10%
+  }
+
+  #section2 {
+    height: 800px;
+  }
+  
+  #section2 img {
+    width: 60%;
+    margin-left: 25%;
+  }
+  
+  #section2 .secao {
+    height: 850px;
+  }
+  
+ #section2 .perfil {
+    right: 10%;
+  }
+  #section2 .perfil h4, h3 {
+    font-size: 100%;
+  }
+  
+  #section2 img {
+    width: 50%;
+  }
+
+  #section3 {
+    height: 550px;
+  }
+  
+  #section3 .secao {
+    height: 700px;
+  }
+
+  #section3 h2 {
+    font-size: 150%;
+    margin-left: 120%;
+  
+  }
+  
+  #section3 h4 {
+    margin-left: 15%;
+    font-size: 100%;
+  }
+ 
   #section4 {
-    height: 1100px;
+    height: 650px;
+  }
+  
+  #section4 .secao {
+    height: 800px;
+  }
+  
+  #section4 .exp_profissional h4, #section4 .exp_profissional h2 {
+    font-size: 100%;
+  }
+  #section4 .img {
+    width: 15%;
+    height: 20%;
+    margin-left: 5%
+  }
+
+  .alinhamento li:not(:first-child){
+    right: 90%;
+  }
+  #section4_ {
+    height: 700px;
+  }
+  
+  #section4_ .secao {
+    height: 800px;
+  }
+  
+  #section4_ .img {
+    width: 20%;
+    height: 15%;
+    margin-left: 5%
+  }
+
+  #section4_ h4, #section4_ h2, #section4_ .li {
+    font-size: 100%;
+  }
+  
+  #section4_ h2, #section4_ h4, #section4_ li {
+    margin-left: 30%;
   }
 
   #section5 {
-    height: 1000px;
+    height: 900px;
+  }
+
+  #section5 img {
+    width: 40%;
+    margin-left: 25%
+  }
+  #section5 p {
+    font-size: 14px;
+  }
+  
+  #section5 h4 {
+    font-size: 20px;
+  }
+  
+  .contato {
+    margin-left: 5%;
+  }
+  
+  #section5 #img {
+    width: 80%;
+    margin-left: 10%;
   }
  
 }
 
 @media (min-width: 1350px){
 
-  .secao {
-    height: 900px;
-  }
-
   .perfil {
     float: right;
     position: relative;
   }
 
-  #section4 {
-    height: 1000px;
+
+  #section1 {
+    height: 750px;
+  }
+  
+   #section1 .secao {
+    height: 900px;
   }
 
-  #section5 {
+  #section1 img {
+    width: 60%;
+    margin-left: 45%;
+  }
+  
+  #section1 h2 {
+    margin-left: 30%
+  }
+  
+  #section1 .perfil h4 {
+    font-size: 100%;
+    margin-left: 10%
+  }
+  
+    #section1 .perfil p, li {
+    font-size: 80%;
+      margin-left: 10%
+  }
+
+  #section2 {
+    height: 600px;
+  }
+  
+  #section2 img {
+    width: 60%;
+    margin-left: 25%;
+  }
+  
+  #section2 .secao {
+    height: 850px;
+  }
+  
+ #section2 .perfil {
+    right: 10%;
+  }
+  #section2 .perfil h4, h3 {
+    font-size: 100%;
+  }
+  
+  #section2 img {
+    width: 50%;
+  }
+
+  #section3 {
+    height: 550px;
+  }
+  
+  #section3 .secao {
     height: 700px;
   }
 
- #section5 img {
-   width: 70%;
-   margin-left: 20%;
- }
+  #section3 h2 {
+    font-size: 150%;
+    margin-left: 120%;
+  
+  }
+  
+  #section3 h4 {
+    margin-left: 15%;
+    font-size: 100%;
+  }
+ 
+  #confira_mais {
+  }
+
+  #section4 {
+    height: 650px;
+  }
+  
+  #section4 .secao {
+    height: 800px;
+  }
+  
+  #section4 .exp_profissional h4, #section4 .exp_profissional h2 {
+    font-size: 100%;
+  }
+  #section4 .img {
+    width: 15%;
+    height: 20%;
+    margin-left: 5%
+  }
+
+  .alinhamento li:not(:first-child){
+    right: 90%;
+  }
+  #section4_ {
+    height: 700px;
+  }
+  
+  #section4_ .secao {
+    height: 800px;
+  }
+  
+  #section4_ .img {
+    width: 20%;
+    height: 15%;
+    margin-left: 5%
+  }
+
+  #section4_ h4, #section4_ h2, #section4_ .li {
+    font-size: 100%;
+  }
+  
+  #section4_ h2, #section4_ h4, #section4_ li {
+    margin-left: 30%;
+  }
+
+  #section5 {
+    height: 900px;
+  }
+
+  #section5 img {
+    width: 40%;
+    margin-left: 25%
+  }
+  #section5 p {
+    font-size: 14px;
+  }
+  
+  #section5 h4 {
+    font-size: 20px;
+  }
+  
+  .contato {
+    margin-left: 5%;
+  }
+  
+  #section5 #img {
+    width: 80%;
+    margin-left: 10%;
+  }
  
 }
+ 
