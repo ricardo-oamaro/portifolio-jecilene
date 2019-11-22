@@ -1,10 +1,10 @@
-/*!
+      /*!
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- :root {
+:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8756,27 +8756,25 @@ footer:after {
   .competencia {
     margin-left: 7%;
   }
-  #confira_mais {
-    margin-left: 40%;
-  }
-
+  
   #section4 {
-    height: 750px;
+    height: 650px;
   }
   
   #section4 .secao {
-    height: 950px;
+    height: 750px;
   }
   
   #section4 .exp_profissional h4, #section4 .exp_profissional h2 {
     font-size: 100%;
   }
-  #section4 .img, #section4_ .img {
-    width: 30%;
-    height: 15%;
+  #section4 .img {
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
   }
 
-  .alinhamento li:not(:first-child){
+  .alinhamento li{
     right: 90%;
   }
   #section4_ {
@@ -8789,6 +8787,13 @@ footer:after {
 
   #section4_ .exp_profissional h4, #section4_ .exp_profissional h2, #section4_ .exp_profissional li {
     font-size: 100%;
+    margin-left: 25%;
+  }
+
+  #section4_ .img {
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
   }
 
   #section5 {
@@ -8809,7 +8814,6 @@ footer:after {
   
   .contato {
     margin-left: 5%;
-    margin-top: -40%
   }
   
   #section5 #img {
@@ -8821,7 +8825,7 @@ footer:after {
 
 @media (min-width: 1000px) and (max-width: 1300px) {
 
-  .perfil {
+   .perfil {
     float: right;
     position: relative;
   }
@@ -8837,28 +8841,38 @@ footer:after {
 
   #section1 img {
     width: 60%;
-    margin-left: 25%;
+    margin-left: 45%;
+  }
+  
+  #section1 h2 {
+    margin-left: 30%
   }
   
   #section1 .perfil h4 {
-    font-size: 18px;
+    font-size: 100%;
+    margin-left: 10%
   }
   
     #section1 .perfil p, li {
-    font-size: 14px;
+    font-size: 80%;
+      margin-left: 10%
   }
 
   #section2 {
-    height: 600px;
-  }
-  
-  #section2 .secao {
     height: 800px;
   }
   
+  #section2 img {
+    width: 60%;
+    margin-left: 25%;
+  }
+  
+  #section2 .secao {
+    height: 850px;
+  }
+  
  #section2 .perfil {
-    left: 35%;
-   margin-top: -45%
+    right: 10%;
   }
   #section2 .perfil h4, h3 {
     font-size: 100%;
@@ -8873,12 +8887,12 @@ footer:after {
   }
   
   #section3 .secao {
-    height: 750px;
+    height: 700px;
   }
 
   #section3 h2 {
-    font-size: 100%;
-    margin-left: 90%;
+    font-size: 150%;
+    margin-left: 120%;
   
   }
   
@@ -8886,15 +8900,9 @@ footer:after {
     margin-left: 15%;
     font-size: 100%;
   }
-  .competencia {
-    margin-left: 7%;
-  }
-  #confira_mais {
-    margin-left: 40%;
-  }
-
+ 
   #section4 {
-    height: 750px;
+    height: 650px;
   }
   
   #section4 .secao {
@@ -8904,9 +8912,10 @@ footer:after {
   #section4 .exp_profissional h4, #section4 .exp_profissional h2 {
     font-size: 100%;
   }
-  #section4 .img, #section4_ .img {
-    width: 30%;
-    height: 15%;
+  #section4 .img {
+    width: 15%;
+    height: 20%;
+    margin-left: 5%
   }
 
   .alinhamento li:not(:first-child){
@@ -8919,21 +8928,27 @@ footer:after {
   #section4_ .secao {
     height: 800px;
   }
+  
+  #section4_ .img {
+    width: 20%;
+    height: 15%;
+    margin-left: 5%
+  }
 
-  #section4_ .exp_profissional h4, #section4_ .exp_profissional h2, #section4_ .exp_profissional li {
+  #section4_ h4, #section4_ h2, #section4_ .li {
     font-size: 100%;
+  }
+  
+  #section4_ h2, #section4_ h4, #section4_ li {
+    margin-left: 30%;
   }
 
   #section5 {
     height: 900px;
   }
-  
-  #section5 .secao {
-    height: 1000px;
-  }
 
   #section5 img {
-    width: 50%;
+    width: 40%;
     margin-left: 25%
   }
   #section5 p {
@@ -8946,7 +8961,6 @@ footer:after {
   
   .contato {
     margin-left: 5%;
-    margin-top: -10%
   }
   
   #section5 #img {
